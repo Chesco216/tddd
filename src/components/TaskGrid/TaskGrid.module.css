@@ -1,0 +1,27 @@
+.container {
+  margin: auto;
+  margin-top: 50px;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  place-content: center;
+  justify-items: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding-bottom: 40px;
+}
+
+.cardsTitle {
+  background: blueviolet;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+}
+
+.todo {
+  max-width: 400px;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}

@@ -1,0 +1,18 @@
+import { TaskCard } from "../TaskCard/TaskCard"
+import { tasks } from "../../assets/tasks"
+import styles from './TaskGrid.module.css'
+
+export const TaskGrid = () => {
+  return (
+    <div className={styles.container}>
+      <div>
+        {
+          tasks.map( task => 
+            <TaskCard id={task.id} title={task.title} desc={task.desc} cat={task.cat} />
+          )
+        }
+      </div>
+    </div>
+  )
+}
+
